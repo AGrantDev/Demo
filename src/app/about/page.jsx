@@ -8,6 +8,7 @@ import {
   InstagramIcon,
   LinkedInIcon,
   TwitterIcon,
+  YouTubeIcon
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/portrait.jpg'
 
@@ -39,7 +40,7 @@ function MailIcon(props) {
 export const metadata = {
   title: 'About',
   description:
-    'I’m Spencer Sharp. I live in New York City, where I design the future.',
+    'The Big Cory Podcast',
 }
 
 export default function About() {
@@ -58,8 +59,7 @@ export default function About() {
         </div>
         <div className="lg:order-first lg:row-span-2">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            I’m Spencer Sharp. I live in New York City, where I design the
-            future.
+            Big Cory; Podcaster, Sports Commentary, Microphone Artist
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
@@ -98,11 +98,8 @@ export default function About() {
             <SocialLink href="#" icon={InstagramIcon} className="mt-4">
               Follow on Instagram
             </SocialLink>
-            <SocialLink href="#" icon={GitHubIcon} className="mt-4">
-              Follow on GitHub
-            </SocialLink>
-            <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
-              Follow on LinkedIn
+            <SocialLink href="#" icon={YouTubeIcon} className="mt-4">
+              Follow on YouTube
             </SocialLink>
             <SocialLink
               href="mailto:spencer@planetaria.tech"
